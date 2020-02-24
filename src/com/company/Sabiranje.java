@@ -24,7 +24,7 @@ public class Sabiranje {
         Scanner ulaz= new Scanner(System.in);
         System.out.println("Unesite zelejni broj ");
         n= ulaz.nextInt();
-        System.out.println("Brojevi koji su djeljivi sa sumom svojih cifara su: ");
+        System.out.println("Brojevi koji su djeljivi sa sumoms vojih cifara su: ");
         for(int i=1; i<n; i++) {
             if(jelDjeljiv(i))
                 System.out.print(i+" ");
